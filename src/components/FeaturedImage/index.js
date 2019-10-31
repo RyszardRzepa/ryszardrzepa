@@ -6,7 +6,7 @@ import Wrapper from './Wrapper';
 function FeaturedImage({ sizes }) {
   return (
     <Wrapper>
-      <Img sizes={sizes} alt="" />
+      <Img style={{ maxHeight: 400, }} imgStyle={{ objectFit: 'contain' }}  sizes={sizes} alt="" />
     </Wrapper>
   );
 }
